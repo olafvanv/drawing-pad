@@ -1,0 +1,22 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-7 col-sm-12">
+      <app-drawing-canvas [color]="color" [penWidth]="penWidth"></app-drawing-canvas>
+      <div class="color-pickers">
+        <button class="color" (click)="changeColor('#000000');" [style.background]="'#000000'"></button>
+        <button class="color" (click)="changeColor('#ff0000');" [style.background]="'#ff0000'"></button>
+        <button class="color" (click)="changeColor('#00ff00');" [style.background]="'#00ff00'"></button>
+        <button class="color" (click)="changeColor('#0000ff');" [style.background]="'#0000ff'"></button>
+      </div>
+      <div class="pen-selector">
+        <button class="pen-width" (click)="changePenWidth(2)">2px</button>
+        <button class="pen-width" (click)="changePenWidth(4)">4px</button>
+        <button class="pen-width" (click)="changePenWidth(6)">6px</button>
+      </div>
+    </div>
+
+    <div class="col-md-5 col-sm-12">
+      <app-chat></app-chat>
+    </div>
+  </div>
+</div>

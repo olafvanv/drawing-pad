@@ -1,0 +1,11 @@
+.canvas-wrapper{
+    overflow:hidden;
+}
+
+canvas{
+    /* width:800px;
+    height:500px; */
+    border:1px solid #dedede;
+    margin:20px auto;
+    display:block;
+}

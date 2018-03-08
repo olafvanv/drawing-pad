@@ -1,0 +1,47 @@
+.chat{
+  text-align:center;
+  margin:20px auto;
+  width:100%;
+  border:1px solid #dedede;
+  height:100%;
+  position:relative;
+}
+
+.chat .input-wrapper{
+  width:100%;
+  position:absolute;
+  bottom:0;
+  border-top:1px solid #dedede;
+}
+
+.messages-wrapper{
+  height:100px;
+  width:100%;
+}
+
+.message-wrapper{
+  width:100%;
+  overflow:auto;
+}
+
+.message{
+  float:right;
+  margin:10px;
+  background-color:#ededed;
+  padding:5px 10px;
+  text-align:right;
+  max-width:80%;
+}
+
+.input-wrapper input{
+  display:block;
+  width:80%;
+  float:left;
+  height:40px;
+  border:0;
+}
+.input-wrapper button{
+  width:20%;
+  float:left;
+  height:40px;
+}
